@@ -191,7 +191,7 @@ export default class Markdown extends Component {
    *
    * @param nextProps
    */
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     this.updateSettings(nextProps);
   }
 
